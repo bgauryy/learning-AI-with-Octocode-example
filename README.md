@@ -2,6 +2,8 @@
 
 This project demonstrates how to use **Octocode MCP** to research and learn AI development best practices directly from GitHub repositories. It starts with research on https://github.com/oracle-devrel/oracle-ai-developer-hub, creating agents (from research context), and then researching for more resources.
 
+This repo was created by inspiration of a great session by the amazing Richmond Alake.
+
 ---
 
 ## 🎥 Video Tutorial
