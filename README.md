@@ -22,7 +22,7 @@ Octocode is an MCP (Model Context Protocol) tool that lets you **research GitHub
 
 ---
 
-## 🚀 The Research Process (6 Steps)
+## 🚀 The Research Process (5 Steps)
 
 ### Step 1: Start with a Goal
 ```
@@ -32,42 +32,27 @@ I want to learn AI best practices from this repo:
 https://github.com/oracle-devrel/oracle-ai-developer-hub
 ```
 
-### Step 2: Explore Repository Structure
-Octocode uses `githubViewRepoStructure` to map the repository:
-```
-📂 oracle-ai-developer-hub/
-├── 📂 apps/              → Full applications
-├── 📂 notebooks/         → Jupyter tutorials
-│   ├── memory_context_engineering_agents.ipynb
-│   ├── oracle_rag_agents_zero_to_hero.ipynb
-│   └── oracle_rag_with_evals.ipynb
-└── README.md
-```
+### Step 2: Octocode Research Tools
 
-### Step 3: Get File Contents
-Octocode uses `githubGetFileContent` to read relevant files:
-- Fetches notebook content
-- Extracts code patterns
-- Identifies best practices
+Octocode Research...🔍🐙
 
-### Step 4: Search for Patterns
-Octocode uses `githubSearchCode` to find specific implementations:
-- Memory management patterns
-- Agent orchestration code
-- RAG pipeline examples
-
-### Step 5: Generate Research Output
+### Step 3: Generate Research Output
 Creates structured documentation:
 - Best practices summary
 - Code examples
 - Learning resources
 - Working implementations
 
-### Step 6: Create Working Example
-I also created a working example using Python from the research:
+### Step 4: Create Working Example
+From the research context, I was able to create agents easily using simple prompts. I created a working example using Python:
 - `multi_agent_session_example.py` - A fully functional 3-agent system implementation
 - Demonstrates orchestrator, research agent, and analyst agent patterns
 - Includes memory management and agent coordination
+
+### Step 5: Expand Research
+I asked Octocode to find more resources to build a more comprehensive context for agent generation (see the final generated file: [.octocode/research/agentic-ai-best-practices/research.md](.octocode/research/agentic-ai-best-practices/research.md)).
+
+**Tip:** You can use this file to ask Octocode to go even deeper...
 
 ---
 
@@ -127,6 +112,12 @@ User Query → Orchestrator → [Research Agent, Analyst Agent] → Synthesizer 
 - [GenAI Agents Tutorials](https://github.com/NirDiamant/GenAI_Agents) (18k ⭐)
 - [LangChain](https://github.com/langchain-ai/langchain) (121k ⭐)
 - [Prompt Engineering Guide](https://github.com/dair-ai/Prompt-Engineering-Guide) (67k ⭐)
+
+---
+
+## ⚠️ Disclaimer
+
+When using Octocode, it creates a `.octocode` folder to store research context and automatically adds it to your `.gitignore` file to keep your repository clean.
 
 ---
 
